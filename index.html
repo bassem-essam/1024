@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/Circle_sign_1024.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1024 Game</title>
+  <script type="module" crossorigin src="/assets/index.f735503c.js"></script>
+  <link rel="stylesheet" href="/assets/index.dbe3cba7.css">
+</head>
+
+<body>
+  <div id="app">
+    <h2>1024 Game</h2>
+    <p>Use the arrow keys to move the tiles</p>
+    <p>When you reach a tile with the number 1024, <span id="win-span">you win!</span></p>
+    <button id="restart">Restart</button>
+    <div class="score-wrapper">
+      <div class="score-view">
+        Score: <span class="score-number" id="score">0</span>
+      </div>
+      <div class="score-view">
+        Top Score: <span class="score-number" id="topscore">0</span>
+      </div>
+    </div>
+    <div id="board">
+      <div id="gameover-modal" class="modal">
+        <h1 align="center" bgcolor="red">Game Over</h1>
+        <button onclick="board.restart()">Restart</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>

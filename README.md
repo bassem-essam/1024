@@ -1,7 +1,7 @@
 # 1024
 A simple game inspired by [2048 Game](https://en.wikipedia.org/wiki/2048_(video_game))
 
-Visit [Play](https://bassem-essam.github.io/1024) to play the game
+Click [here](https://bassem-essam.github.io/1024) to play the game
 
 # How to Play
 1. Movement: Use the arrow keys (or swipe on touch devices) to move all tiles in the desired direction.

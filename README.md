@@ -1,5 +1,6 @@
 # 1024
 A simple game inspired by [2048 Game](https://en.wikipedia.org/wiki/2048_(video_game))
+
 Visit [Play](https://bassem-essam.github.io/1024) to play the game
 
 # How to Play
